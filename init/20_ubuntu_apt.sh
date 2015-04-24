@@ -45,8 +45,6 @@ packages=(
   htop
   libssl-dev
   nmap
-  silversearcher-ag
-  sl
   telnet
   tree
 )
