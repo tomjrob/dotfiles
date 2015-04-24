@@ -1,0 +1,6 @@
+[General]
+Cookies="@ByteArray(_gat=1; expires=Fri, 24-Apr-2015 05:15:23 GMT; domain=.slack.com; path=/\nguest_id=v1%3A142985192515360047; expires=Sun, 23-Apr-2017 05:05:25 GMT; domain=.twitter.com; path=/\n__qca=P0-1532668725-1429851925786; expires=Sun, 23-Oct-2016 01:48:34 GMT; domain=.slack.com; path=/\na-3073169477=y0fZYM7dF1bqtm0ywY%2B1Pt%2BmzFCjkbzOZBTwx0choC2%2BLa3j0GVXCecBaCuc5uJSKA0ky8INj3Rx0Lm28FjUVg%3D%3D; secure; HttpOnly; expires=Thu, 24-Apr-2025 05:05:40 GMT; domain=.slack.com; path=/\na=3073169477; secure; HttpOnly; expires=Thu, 24-Apr-2025 05:05:40 GMT; domain=.slack.com; path=/\n_ga=GA1.2.1532524863.1429851924; expires=Sun, 23-Apr-2017 05:05:41 GMT; domain=.slack.com; path=/\nmp_12d52d8633a5b432975592d13ebd3f34_mixpanel=%7B%22distinct_id%22%3A%20%2214ce9d0e484a32-02471d00b-512b7b46-1fa400-14ce9d0e486b83%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; expires=Sat, 23-Apr-2016 05:05:41 GMT; domain=.slack.com; path=/\n)"
+Systray=True
+Domain=https://modhub.slack.com
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\x30\0\0\0\x30\0\0\x4\xb5\0\0\x2\xf9\0\0\0\x30\0\0\0\x30\0\0\x4\xb5\0\0\x2\xf9\0\0\0\0\0\0)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x4\x86\0\0\x2\xaf\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
