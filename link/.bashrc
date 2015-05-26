@@ -1,6 +1,24 @@
 # Where the magic happens.
 export DOTFILES=~/.dotfiles
 
+# pip should only run if there is a virtualenv currently activated
+export PIP_REQUIRE_VIRTUALENV=true
+# cache pip-installed packages to avoid re-downloading
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
+export PATH=/usr/local/bin:$PATH
+
+export WORKON_HOME=~/.virtualenvs
+if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
+    source /usr/local/bin/virtualenvwrapper.sh
+else
+    echo "WARNING: Can't find virtualenvwrapper.sh"
+fi
+
 # Add binaries into the path
 PATH=$DOTFILES/bin:$PATH
 export PATH
@@ -23,3 +41,5 @@ function dotfiles() {
 }
 
 src
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

@@ -19,51 +19,21 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 # Homebrew casks
 casks=(
   # Applications
-  1password
-  a-better-finder-rename
-  battle-net
-  bettertouchtool
-  charles
-  chromium
-  chronosync
   dropbox
-  easysimbl
-  fastscripts
-  firefox
   google-chrome
-  gyazo
-  hermes
-  hex-fiend
-  iterm2
-  launchbar
-  macvim
-  menumeters
-  moom
-  omnidisksweeper
-  race-for-the-galaxy
-  remote-desktop-connection
-  scroll-reverser
-  sharemouse
-  skype
   slack
-  sonos
-  sourcetree
   spotify
-  star-realms
-  steam
-  synology-assistant
-  teamspeak-client
+  spotify-notifications
   teamviewer
-  the-unarchiver
-  todoist
-  totalfinder
-  tower
-  transmission-remote-gui
+  remote-desktop-connection
   vagrant
   virtualbox
   vlc
-  # Drivers
-  d235j-xbox360-controller-driver
+  sourcetree
+  chromecast
+  atom
+  mendeley-desktop
+  disk-inventory-x
   # Quick Look plugins
   betterzipql
   qlcolorcode
