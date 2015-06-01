@@ -24,6 +24,7 @@ casks=(
   caffeine
   slack
   spotify
+  r
   spotify-notifications
   teamviewer
   remote-desktop-connection
