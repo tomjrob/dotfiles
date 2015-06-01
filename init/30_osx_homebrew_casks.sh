@@ -21,6 +21,7 @@ casks=(
   # Applications
   dropbox
   google-chrome
+  caffeine
   slack
   spotify
   spotify-notifications
