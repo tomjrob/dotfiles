@@ -3,3 +3,22 @@
     userId: "fd406a54-edc4-df78-16f9-3279cc50b842"
   welcome:
     showOnStartup: false
+  core:
+    projectHome: "/Users/tomjrob/Source"
+  editor:
+    invisibles:
+      {}
+  linter:
+    {}
+  "git-plus":
+    {}
+  "atom-beautify":
+    {}
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+  "autocomplete-plus-async":
+    {}
+  build:
+    {}
+  motepair:
+    userEmail: "robinson.tj@gmail.com"

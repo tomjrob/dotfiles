@@ -7,8 +7,10 @@
 /link/.ssh/id_*
 /link/.ssh/known_hosts
 
-# Don't commit Vim plugins, vim-plug will install them.
+# Don't commit Vim or Atom plugins, vim-plug/apm will install them.
 /link/.vim/plugged
+/link/.atom/packages
+/link/.atom/.apm
 
 # Don't commit rbenv temp files.
 /link/.rbenv/shims/
