@@ -21,6 +21,7 @@ casks=(
   # Applications
   atom
   caffeine
+  cd-to
   chromecast
   disk-inventory-x
   dropbox
