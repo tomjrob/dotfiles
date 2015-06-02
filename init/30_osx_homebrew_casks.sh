@@ -25,6 +25,7 @@ casks=(
   disk-inventory-x
   dropbox
   google-chrome
+  gpodder
   mendeley-desktop
   remote-desktop-connection
   rstudio
