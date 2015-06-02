@@ -10,6 +10,7 @@ recipes=(
   git
   git-extras
   nmap
+  r
   ssh-copy-id
   terminal-notifier
   bash-completion

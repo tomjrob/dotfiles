@@ -19,23 +19,23 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 # Homebrew casks
 casks=(
   # Applications
+  atom
+  caffeine
+  chromecast
+  disk-inventory-x
   dropbox
   google-chrome
-  caffeine
+  mendeley-desktop
+  remote-desktop-connection
+  rstudio
   slack
+  sourcetree
   spotify
-  r
   spotify-notifications
   teamviewer
-  remote-desktop-connection
   vagrant
   virtualbox
   vlc
-  sourcetree
-  chromecast
-  atom
-  mendeley-desktop
-  disk-inventory-x
   # Quick Look plugins
   betterzipql
   qlcolorcode
