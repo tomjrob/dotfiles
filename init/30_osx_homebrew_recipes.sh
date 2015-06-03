@@ -14,7 +14,7 @@ recipes=(
   git
   git-extras
   nmap
-  r
+  r #homebrew/science
   ssh-copy-id
   terminal-notifier
   bash-completion
