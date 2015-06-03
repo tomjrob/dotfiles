@@ -22,7 +22,9 @@ if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
   export WORKON_HOME=~/.virtualenvs
   export PIP_REQUIRE_VIRTUALENV=true
   source /usr/local/bin/virtualenvwrapper.sh
-  gpip(){PIP_REQUIRE_VIRTUALENV="" pip "$@"}
+  gpip(){
+    PIP_REQUIRE_VIRTUALENV="" pip "$@"
+    }
 else
   echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
