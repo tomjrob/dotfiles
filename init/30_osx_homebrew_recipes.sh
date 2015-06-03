@@ -9,6 +9,7 @@ kegs=(
   science/r
 )
 recipes=(
+  autoenv
   bash
   git
   git-extras
