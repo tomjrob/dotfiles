@@ -38,6 +38,7 @@ casks=(
   vagrant
   virtualbox
   vlc
+  xquartz
   # Quick Look plugins
   betterzipql
   qlcolorcode

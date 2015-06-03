@@ -6,9 +6,8 @@ is_osx || return 1
 
 # Homebrew recipes
 kegs=(
-  homebrew/science/r
+  science/r
 )
-
 recipes=(
   bash
   git
