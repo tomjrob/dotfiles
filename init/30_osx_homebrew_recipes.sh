@@ -13,6 +13,7 @@ recipes=(
   bash
   git
   git-extras
+  gnu-sed
   nmap
   r #homebrew/science
   ssh-copy-id
