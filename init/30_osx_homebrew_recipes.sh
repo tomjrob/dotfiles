@@ -14,6 +14,7 @@ recipes=(
   ssh-copy-id
   terminal-notifier
   bash-completion
+  python
 )
 
 brew_install_recipes
