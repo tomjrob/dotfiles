@@ -5,6 +5,10 @@ is_osx || return 1
 [[ ! "$(type -P brew)" ]] && e_error "Brew recipes need Homebrew to install." && return 1
 
 # Homebrew recipes
+kegs=(
+  homebrew/science/r
+)
+
 recipes=(
   bash
   git
@@ -16,7 +20,7 @@ recipes=(
   bash-completion
   python
 )
-
+brew_tap_kegs
 brew_install_recipes
 
 # Misc cleanup!
