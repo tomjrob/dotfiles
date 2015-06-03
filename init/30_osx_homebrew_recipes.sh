@@ -6,7 +6,7 @@ is_osx || return 1
 
 # Homebrew recipes
 kegs=(
-  science/r
+  homebrew/science
 )
 recipes=(
   autoenv
