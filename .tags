@@ -2737,3 +2737,4 @@ common	/Users/tomjrob/Source/dotfiles/vendor/z/z.sh	/^            function commo
 _z_precmd	/Users/tomjrob/Source/dotfiles/vendor/z/z.sh	/^            _z_precmd() {$/;"	function	line:214
 _z_precmd	/Users/tomjrob/Source/dotfiles/vendor/z/z.sh	/^            _z_precmd() {$/;"	function	line:218
 _z_zsh_tab_completion	/Users/tomjrob/Source/dotfiles/vendor/z/z.sh	/^    _z_zsh_tab_completion() {$/;"	function	line:226
+pip_install	/Users/tomjrob/Source/dotfiles/source/50_python.sh	/^function pip_install() {$/;"	function	line:7
