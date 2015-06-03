@@ -38,7 +38,7 @@ casks=(
   vagrant
   virtualbox
   vlc
-  xquartz
+  xquartz #gpodder dependency
   # Quick Look plugins
   betterzipql
   qlcolorcode
