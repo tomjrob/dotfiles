@@ -2,6 +2,7 @@
 pip_globals=(
   virtualenv
   virtualenvwrapper
+  aws-cli
 )
 
 function pip_install() {
