@@ -28,6 +28,7 @@ casks=(
   google-chrome
   gpodder
   mendeley-desktop
+  microsoft-office
   remote-desktop-connection
   rstudio
   slack
