@@ -28,6 +28,7 @@ casks=(
   dropbox
   google-chrome
   gpodder
+  kitematic
   mendeley-desktop
   microsoft-office
   remote-desktop-connection
