@@ -10,7 +10,9 @@ kegs=(
 )
 recipes=(
   autoenv
+  boot2docker
   bash
+  docker
   git
   git-extras
   gnu-sed
