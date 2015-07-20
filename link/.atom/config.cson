@@ -5,20 +5,21 @@
     showOnStartup: false
   core:
     projectHome: "/Users/tomjrob/Source"
+    disabledPackages: [
+      "symbols-view"
+    ]
   editor:
-    invisibles:
-      {}
-  linter:
-    {}
-  "git-plus":
-    {}
+    invisibles: {}
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 6
+  linter: {}
+  "git-plus": {}
   "atom-beautify":
-    {}
+    _analyticsUserId: "84856c0f-4b7c-484e-9476-8e5951f4a364"
   "atom-ctags":
     autoBuildTagsWhenActive: true
-  "autocomplete-plus-async":
-    {}
-  build:
-    {}
+  "autocomplete-plus-async": {}
+  build: {}
   motepair:
     userEmail: "robinson.tj@gmail.com"

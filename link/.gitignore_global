@@ -7,6 +7,10 @@
 *.o
 *.so
 
+# Auto-generated tag files #
+###################
+.tags*
+
 # Packages #
 ############
 # It's better to unpack these files and commit the raw source because

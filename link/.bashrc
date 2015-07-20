@@ -1,8 +1,15 @@
+### OPENSTACK ###
+if [ -f ~/.BeatsonMicrobialGenomics-openrc.sh ]; then
+  source ~/.BeatsonMicrobialGenomics-openrc.sh
+fi
+
 ### HOMEBREW ###
 export PATH=/usr/local/bin:$PATH
 # Add homebrew bash completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
+  echo "bash completion sourced"
+  echo "$(brew --prefix)/etc/bash_completion"
+  source $(brew --prefix)/etc/bash_completion
 fi
 
 ### RUBY ###
@@ -22,9 +29,7 @@ if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
   export WORKON_HOME=~/.virtualenvs
   export PIP_REQUIRE_VIRTUALENV=true
   source /usr/local/bin/virtualenvwrapper.sh
-  gpip(){
-    PIP_REQUIRE_VIRTUALENV="" pip "$@"
-    }
+  gpip(){ PIP_REQUIRE_VIRTUALENV="" pip "$@"; }
 else
   echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
