@@ -23,6 +23,7 @@ casks=(
   atom
   caffeine
   cd-to
+  chefdk
   chromecast
   disk-inventory-x
   dropbox
