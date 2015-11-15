@@ -31,7 +31,6 @@ casks=(
   gpodder
   kitematic
   mendeley-desktop
-  microsoft-office
   remote-desktop-connection
   rstudio
   slack

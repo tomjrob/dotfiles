@@ -3,20 +3,26 @@ if [ -f ~/.BeatsonMicrobialGenomics-openrc.sh ]; then
   . ~/.BeatsonMicrobialGenomics-openrc.sh
 fi
 
+### PACKER ###
+if [ -d /Volumes/MODHUB_TEST/ ]; then
+  mkdir -p /Volumes/MODHUB_TEST/packer_cache
+  export PACKER_CACHE_DIR=/Volumes/MODHUB_TEST/packer_cache
+fi
+
+### GOPATH ###
+export GOPATH=$HOME/Source/Go
+export PATH="$PATH:$GOPATH/bin"
+
 ### HOMEBREW ###
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # Add homebrew bash completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
 ### RUBY ###
-# Load RVM into a shell session *as a function*
-if [[ -s "$HOME/.rvm/scripts/rvm" ]]; then
-  export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-  . "$HOME/.rvm/scripts/rvm"
-else
-  echo "WARNING: Can't find rvm"
+if [ -f ~/.bundler-exec.sh ]; then
+  source ~/.bundler-exec.sh
 fi
 
 ### PYTHON ###
