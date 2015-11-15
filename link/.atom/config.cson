@@ -7,6 +7,7 @@
     projectHome: "/Users/tomjrob/Source"
     disabledPackages: [
       "symbols-view"
+      "run-command2"
     ]
   editor:
     invisibles: {}
@@ -14,7 +15,8 @@
     softWrapAtPreferredLineLength: true
     softWrapHangingIndent: 6
   linter: {}
-  "git-plus": {}
+  "git-plus":
+    wordDiff: false
   "atom-beautify":
     _analyticsUserId: "84856c0f-4b7c-484e-9476-8e5951f4a364"
   "atom-ctags":
@@ -23,3 +25,46 @@
   build: {}
   motepair:
     userEmail: "robinson.tj@gmail.com"
+  "run-command2": {}
+  "go-plus":
+    showPanelWhenNoIssuesExist: true
+  "terminal-panel": {}
+  "go-oracle":
+    goPath: "/Users/tomjrob/go-path"
+  "rubocop-auto-correct":
+    autoRun: true
+    correctFile: true
+  "linter-rubocop": {}
+  "markdown-preview":
+    breakOnSingleNewline: true
+    useGitHubStyle: true
+  rspec:
+    command: "chef exec rspec"
+    save_before_run: true
+  "toggle-quotes": {}
+  "autocomplete-ctags": {}
+  "git-diff": {}
+  "merge-conflicts": {}
+  minimap:
+    plugins:
+      "git-diff": true
+    displayMinimapOnLeft: true
+  "markdown-writer": {}
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+    useGitHubStyle: true
+".diff.source":
+  editor:
+    softWrapHangingIndent: 6
+".nant-build.source":
+  editor:
+    softWrapHangingIndent: 6
+".csx.source":
+  editor:
+    softWrapHangingIndent: 6
+".cs.source":
+  editor:
+    softWrapHangingIndent: 6
+".bat.source":
+  editor:
+    softWrapHangingIndent: 6
